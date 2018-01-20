@@ -1,0 +1,12 @@
+.clear-fix::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    clear: both;
+}
+.clear-fix {
+    zoom: 1;
+}
